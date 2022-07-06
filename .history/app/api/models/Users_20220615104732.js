@@ -1,0 +1,26 @@
+module.exports = {
+
+  attributes: {
+    firstName:{
+      type: 'string',
+      required: true
+    },
+
+    lastName:{
+      type: 'string',
+      required: true
+    },
+
+    email:{
+      type: 'string',
+      required: true
+    },
+
+    password:{
+      type: 'string',
+      required: true
+    }
+  },
+};
+
+// http://localhost:1337/Users/Create?firstName=kim&lastName=quan&email=kimquan2000vn&password=123456

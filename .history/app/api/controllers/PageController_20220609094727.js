@@ -1,0 +1,26 @@
+module.exports = {
+    home: function (req, res) {
+		return res.view('pages/homepage')
+	},
+
+	welcome: function (req, res) {
+		return res.view('pages/welcome')
+	},
+
+	login: function(req, res) {
+		if (req.user) return res.redirect('pages/home')
+		return res.view('pages/login')
+	},
+
+	logout: function(req, res) {
+		return res.view('pages/logout')
+	},
+
+	register: function(req, res) {
+		return res.view('pages/register')
+	},
+
+	profile: function(req, res) {
+		return res.view('pages/profile')
+	}
+}

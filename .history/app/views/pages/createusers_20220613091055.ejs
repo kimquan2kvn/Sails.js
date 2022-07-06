@@ -1,0 +1,53 @@
+<h1>Create User</h1>
+<style>
+form {
+  background-color:#E7E9EB;
+}
+
+#to{
+  background-color:#E7E9EB;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+alert-danger {
+  background-color:#E7E9EB;
+}
+</style>
+
+<form action="/users/create" method="post" class="form" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="title">Tên Sinh Viên</label>
+      <input type="text" name="name" id="" class="form-control" placeholder="Enter title" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Lớp</label>
+      <input type="text" name="class" id="" class="form-control" placeholder="Enter title" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Năm Sinh</label>
+      <input type="text" name="name" id="" class="form-control" placeholder="Enter title" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Tên Sinh Viên</label>
+      <input type="text" name="name" id="" class="form-control" placeholder="Enter title" aria-describedby="helpId" required>
+    </div>
+
+    <!-- <div class="form-group" id="nho">
+      <label for="file">File Upload</label>
+      <input type="file" class="form-control-file" name="file" id="" placeholder="Upload here" aria-describedby="fileHelpId" required>
+    </div> -->
+
+
+    <div class="form-group" id="nho">
+      <label for="body">Body</label>
+      <textarea required class="form-control" name="body"  rows="8" cols="30">Enter Description</textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary" >Submit</button>
+
+</form>
+</div>

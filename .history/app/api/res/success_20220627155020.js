@@ -1,0 +1,8 @@
+
+module.exports =  {
+  resOK:function(data){
+    if(data) {
+      return res.send('OK');
+    }
+  }
+};

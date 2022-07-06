@@ -1,0 +1,7 @@
+module export = {
+    try {
+        
+    } catch () {
+        
+    }
+}

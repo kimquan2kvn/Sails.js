@@ -1,0 +1,40 @@
+<h1>Create User</h1>
+<hr>
+
+<form action="/users/createuser" method="post" class="form" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="title">Tên Sinh Viên</label>
+      <input type="text" name="name" id="" class="form-control" placeholder="Nhập tên" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Lớp</label>
+      <input type="text" name="class" id="" class="form-control" placeholder="Nhập lớp" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Năm Sinh</label>
+      <input type="text" name="birthday" id="" class="form-control" placeholder="Nhập năm sinh" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Tỉnh</label>
+      <input type="text" name="city" id="" class="form-control" placeholder="Nhập năm sinh" aria-describedby="helpId" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="title">Huyện</label>
+      <input type="text" name="district" id="" class="form-control" placeholder="Enter district" aria-describedby="helpId" required>
+    </div>
+    <div class="form-group">
+      <label for="title">Xã</label>
+      <input type="text" name="village" id="" class="form-control" placeholder="Enter village" aria-describedby="helpId" required>
+    </div>
+
+
+    <div class="form-group">
+      <label for="file">File Upload</label>
+      <input type="file" class="form-control-file" name="file" id="" placeholder="Upload here" aria-describedby="fileHelpId" required>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary" >Submit</button>
+
+</form>
